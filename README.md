@@ -9,7 +9,7 @@
   4) Open the TestFlight App on your phone and you should see Reflex in the list of apps available to test
   5) Download the Reflex app and have fun!
 ### Android
-  1) Visit [THIS LINK](https://expo.io/artifacts/1be5cff5-8e4a-40fb-be72-2d9704f5bdd7) to download APK file
+  1) Visit [THIS LINK](https://expo.io/artifacts/f11bcc8d-8374-488d-aeef-d287760efaf6) to download APK file
   2) Have fun!
   
 ## Installation (Development Build)
