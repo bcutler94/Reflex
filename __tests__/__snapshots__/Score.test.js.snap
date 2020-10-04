@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Score /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 3,
+      "backgroundColor": "lightblue",
+      "borderRadius": 10,
+      "justifyContent": "center",
+      "width": "30%",
+    }
+  }
+>
+  <Text>
+    SCORE: null
+  </Text>
+</View>
+`;

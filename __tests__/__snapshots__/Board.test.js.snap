@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "space-between",
+      "width": "95%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "lightgray",
+        "height": "24%",
+        "justifyContent": "center",
+        "marginBottom": "1%",
+        "opacity": 1,
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Poups /> FTUE renders correctly 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  presentationStyle="overFullScreen"
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 3,
+          "justifyContent": "space-evenly",
+          "padding": 10,
+          "width": "80%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 37.5,
+            "fontWeight": "800",
+            "textAlign": "center",
+          }
+        }
+      >
+        Welcome to REFLEX!
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        The objective of this game is to test your reflex speed. Once you start the game, you must press the squares that flash a different color. The speed at which squares flash, as well as the reaction time alloted will get more difficult with time. Good Luck!
+      </Text>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "aspectRatio": 5,
+            "backgroundColor": "green",
+            "borderRadius": 10,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "80%",
+          }
+        }
+      >
+        <Text>
+          OK
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`<Poups /> GameOver renders correctly 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  presentationStyle="overFullScreen"
+  transparent={true}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 3,
+          "justifyContent": "space-evenly",
+          "padding": 10,
+          "width": "80%",
+        }
+      }
+    >
+      <Text>
+        Game Over!
+      </Text>
+      <Text>
+        Your high score was undefined
+      </Text>
+      <Text>
+        Your time was undefined
+      </Text>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "aspectRatio": 5,
+            "backgroundColor": "green",
+            "borderRadius": 10,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "80%",
+          }
+        }
+      >
+        <Text>
+          RESET GAME
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
