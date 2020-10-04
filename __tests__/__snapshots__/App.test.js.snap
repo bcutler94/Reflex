@@ -50,7 +50,7 @@ exports[`<App /> renders correctly 1`] = `
             }
           }
         >
-          Welcome to REFLEX!
+          Welcome to Fast Touch Game!
         </Text>
         <Text
           style={
@@ -167,7 +167,7 @@ exports[`<App /> renders correctly 1`] = `
       }
     }
   >
-    REFLEX
+    Fast Touch Game
   </Text>
   <View
     style={
@@ -573,6 +573,115 @@ exports[`<App /> renders correctly 1`] = `
     >
       <Text>
         TIME: 0:00:00
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 2.5,
+          "backgroundColor": "yellow",
+          "borderColor": "green",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "green",
+            "fontSize": 25,
+          }
+        }
+      >
+        EASY
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 2.5,
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        MEDIUM
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 2.5,
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }
+      >
+        HARD
       </Text>
     </View>
   </View>

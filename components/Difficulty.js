@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Dimensions} from 'react-native';
 
 const LEVELS = ['easy', "medium", "hard"];
 
@@ -17,9 +17,9 @@ export const Difficulty = ({ handleParentPress }) => {
             {
                 LEVELS.map(level => {
                     const touchableStyleToUse = diff === level ? {...styles.button, borderColor: "green", backgroundColor: 'yellow'} : styles.button;
-                    const textStyleToUse = diff === level ? {...styles.text, fontSize: 25, color: "green"} : styles.text;
+                    const textStyleToUse = diff === level ? {...styles.text, fontSize: width * .06, color: "green", fontWeight: "800"} : styles.text;
                     return (
-                        <TouchableOpacity style={touchableStyleToUse} onPress={() => handlePress(level)}>
+                        <TouchableOpacity key={level} style={touchableStyleToUse} onPress={() => handlePress(level)}>
                             <Text style={textStyleToUse}>
                                 {
                                     level.toUpperCase()
@@ -33,6 +33,8 @@ export const Difficulty = ({ handleParentPress }) => {
     )
 }
 
+const { width } = Dimensions.get('screen');
+
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
@@ -43,11 +45,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         aspectRatio: 2.5,
-        height: 50,
+        height: width * .1,
         borderRadius: 10,
         borderWidth: 2
     },
     text: {
-        fontSize: 20
+        fontSize: width * .04
     }
 });

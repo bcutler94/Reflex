@@ -1,7 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, Modal } from 'react-native';
-import moment from 'moment';
+import { StyleSheet, Text, TouchableOpacity, View, ScrollView, Dimensions } from 'react-native';
 import { Timer } from './components/Timer';
 import { Score } from './components/Score';
 import { GameOver, FTUE } from './components/Popups';
@@ -11,7 +9,6 @@ import { Difficulty } from './components/Difficulty';
 let numTurns = 0;
 let flashLen = 1000;
 let reflexLen = 2000;
-let timeStarted;
 let timeExpired = false;
 let flashTimer;
 let reflexTimer;
@@ -169,11 +166,13 @@ export default function App() {
 	}
 
 	return (
-		<View style={styles.container}>
+		<ScrollView 
+			contentContainerStyle={styles.contentContainer}
+			style={styles.container}>
 			<FTUE visible={showFtue} handleFtueDismiss={handleFtueDismiss}/>
 			<GameOver visible={score <= 0} timeElapsed={time} highScore={highScore} handleModalDismiss={handleModalDismiss}/>
 			<Text style={styles.title}>
-				REFLEX
+				Fast Touch Game
 			</Text>
 			<Board flashBoxes={flashBoxes} flash={flash} handlePress={handlePress}/>
 			<View style={styles.widgets}>
@@ -186,15 +185,19 @@ export default function App() {
 					START
 				</Text>
 			</TouchableOpacity>
-		</View>
+		</ScrollView>
 	);
 }
 
+const {width} = Dimensions.get("screen");
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: '#fff'
+  },
+  contentContainer: {
+	flexGrow: 1,
+	alignItems: 'center',
     justifyContent: 'space-evenly',
   },
   startButton: {
@@ -211,7 +214,7 @@ const styles = StyleSheet.create({
 	  justifyContent: 'space-evenly'
   },
   title: {
-	fontSize: 40,
+	fontSize: width * .1,
 	fontWeight: '800'
   }
 });

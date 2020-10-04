@@ -40,7 +40,7 @@ exports[`<Poups /> FTUE renders correctly 1`] = `
           }
         }
       >
-        Welcome to REFLEX!
+        Welcome to Fast Touch Game!
       </Text>
       <Text
         style={

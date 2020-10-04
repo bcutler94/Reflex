@@ -12,15 +12,15 @@ export const GameOver = ({ visible = false, timeElapsed, handleModalDismiss, hig
         >
         <View style={styles.modalContainer}>
             <View style={styles.modal}>
-                <Text>
+                <Text style={styles.title}>
                     Game Over!
                 </Text>
-                <Text>
+                <Text style={styles.body}>
                     {
                         `Your high score was ${highScore}`
                     }
                 </Text>
-                <Text>
+                <Text style={styles.body}>
                     {
                         `Your time was ${timeElapsed}`
                     }
@@ -48,7 +48,7 @@ export const FTUE = ({ visible, handleFtueDismiss }) => {
         <View style={styles.modalContainer}>
             <View style={styles.modal}>
                 <Text style={styles.title}>
-                    Welcome to REFLEX!
+                    Welcome to Fast Touch Game!
                 </Text>
                 <Text style={styles.body}>
                     The objective of this game is to test your reflex speed. 
@@ -57,7 +57,7 @@ export const FTUE = ({ visible, handleFtueDismiss }) => {
                     Good Luck!
                 </Text>
                 <TouchableOpacity onPress={handleFtueDismiss} style={styles.button}>
-                    <Text>
+                    <Text style={styles.body}>
                         OK
                     </Text>
                 </TouchableOpacity>
